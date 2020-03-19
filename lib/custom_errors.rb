@@ -1,4 +1,4 @@
-class Person
+class PartnerError < StandardError
   attr_accessor :partner, :name
 
   def initialize(name)
